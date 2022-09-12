@@ -1,39 +1,62 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<!-- ![banner](https://raw.githubusercontent.com/teixeirazeus/hequest/master/readme_assets/banner.png)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca9452a2e4a745718e59fc8ca54de6e2)](https://www.codacy.com/gh/teixeirazeus/hequest/dashboard?utm_source=github.com\&utm_medium=referral\&utm_content=teixeirazeus/hequest\&utm_campaign=Badge_Grade)[![License](https://raw.githubusercontent.com/teixeirazeus/hequest/3bb5c5adb73020d036563be2a155210562789f22/readme_assets/mit.svg)](https://github.com/teixeirazeus/hequest) -->
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+An icon widget with a circular background.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Installing
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+1.  Add dependencies to `pubspec.yaml`
 
-## Features
+    ```yaml
+    dependencies:
+        hequest:
+            git:
+                url: https://github.com/teixeirazeus/round_icon
+    ```
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+2.  Run pub get.
 
-## Getting started
+    ```shell
+    flutter pub get
+    ```
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+3.  Import package.
 
-## Usage
+    ```dart
+    import 'package:round_icon/round_icon.dart';
+    ```
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+## Using
+
+Set the icon, its color and the background color.
 
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:round_icon/round_icon.dart';
+
+void main() {
+  runApp(const App());
+}
+
+class App extends StatelessWidget {
+  const App({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: RoundIcon(
+              icon: Icons.person,
+              backgroundColor: Colors.grey,
+              iconColor: Colors.black),
+        ),
+      ),
+    );
+  }
+}
 ```
 
-## Additional information
+## Contributing
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
