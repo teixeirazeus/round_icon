@@ -1,5 +1,5 @@
-<!-- ![banner](https://raw.githubusercontent.com/teixeirazeus/hequest/master/readme_assets/banner.png)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca9452a2e4a745718e59fc8ca54de6e2)](https://www.codacy.com/gh/teixeirazeus/hequest/dashboard?utm_source=github.com\&utm_medium=referral\&utm_content=teixeirazeus/hequest\&utm_campaign=Badge_Grade)[![License](https://raw.githubusercontent.com/teixeirazeus/hequest/3bb5c5adb73020d036563be2a155210562789f22/readme_assets/mit.svg)](https://github.com/teixeirazeus/hequest) -->
+![banner](https://raw.githubusercontent.com/teixeirazeus/round_icon/master/readme_assets/banner.png)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/17bc54aa3e4c4d5c8968ac30ce1ebb2d)](https://www.codacy.com/gh/teixeirazeus/round_icon/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=teixeirazeus/round_icon&amp;utm_campaign=Badge_Grade)[![License](https://raw.githubusercontent.com/teixeirazeus/round_icon/master/readme_assets/mit.svg)](https://github.com/teixeirazeus/round_icon)
 
 An icon widget with a circular background.
 
