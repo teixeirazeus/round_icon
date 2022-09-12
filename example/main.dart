@@ -13,7 +13,10 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: roundIcon(Icons.add, Colors.blue, Colors.white),
+          child: RoundIcon(
+              icon: Icons.person,
+              backgroundColor: Colors.grey,
+              iconColor: Colors.black),
         ),
       ),
     );
