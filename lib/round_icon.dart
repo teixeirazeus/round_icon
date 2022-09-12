@@ -9,23 +9,22 @@ class RoundIcon extends StatelessWidget {
   Color backgroundColor;
   Color iconColor;
   double size;
-  double padding;
+  EdgeInsets padding;
   RoundIcon({
     Key? key,
     required this.icon,
     required this.backgroundColor,
     required this.iconColor,
     this.size = 24.0,
-    this.padding = 8.0,
+    this.padding = const EdgeInsets.all(8.0),
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(8), color: backgroundColor),
+      decoration: BoxDecoration(shape: BoxShape.circle, color: backgroundColor),
       child: Padding(
-        padding: EdgeInsets.all(padding),
+        padding: padding,
         child: Icon(
           icon,
           color: iconColor,
