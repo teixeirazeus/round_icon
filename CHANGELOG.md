@@ -9,3 +9,7 @@
 ## 0.0.3
 
 *   Fix size bug.
+
+## 0.0.4
+
+*   Fix size bug.

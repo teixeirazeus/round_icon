@@ -9,14 +9,14 @@ class RoundIcon extends StatelessWidget {
   Color backgroundColor;
   Color iconColor;
   double size;
-  EdgeInsets padding;
+  double padding;
   RoundIcon({
     Key? key,
     required this.icon,
     required this.backgroundColor,
     required this.iconColor,
     this.size = 24.0,
-    this.padding = const EdgeInsets.all(5.0),
+    this.padding = 10,
   }) : super(key: key);
 
   @override
@@ -25,12 +25,10 @@ class RoundIcon extends StatelessWidget {
       width: size,
       height: size,
       decoration: BoxDecoration(shape: BoxShape.circle, color: backgroundColor),
-      child: Padding(
-        padding: padding,
-        child: Icon(
-          icon,
-          color: iconColor,
-        ),
+      child: Icon(
+        icon,
+        color: iconColor,
+        size: size - padding,
       ),
     );
   }
