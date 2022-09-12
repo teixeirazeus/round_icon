@@ -5,3 +5,7 @@
 ## 0.0.2
 
 *   Fix round icon.
+
+## 0.0.3
+
+*   Fix size bug.
