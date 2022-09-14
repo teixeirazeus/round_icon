@@ -9,7 +9,7 @@ An icon widget with a circular background.
 
     ```yaml
     dependencies:
-        hequest:
+        round_icon:
             git:
                 url: https://github.com/teixeirazeus/round_icon
     ```
